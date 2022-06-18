@@ -2,7 +2,7 @@
 
  Getting the data from "https://rss.applemarketingtools.com/" and bulid up the App Store listing page by ReactJS, CSS, HTML, Node js.
 
-<img src="public/preview.png" width={20}>
+<img src="public/preview.png" width="250"/>
 
 # Getting Started
 

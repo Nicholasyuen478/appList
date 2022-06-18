@@ -1,0 +1,84 @@
+@import "../Variables/Variables.scss";
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+@mixin fullWidthContainer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+@mixin header {
+  font-size: $headerXs;
+  @include sm {
+    font-size: $headerSm;
+  }
+  @include md {
+    font-size: $headerMd;
+  }
+  @include lg {
+    font-size: $headerLg;
+  }
+  @include xl {
+    font-size: $headerXl;
+  }
+}
+
+@mixin title {
+  font-size: $titleXs;
+  @include sm {
+    font-size: $titleSm;
+  }
+  @include md {
+    font-size: $titleMd;
+  }
+  @include lg {
+    font-size: $titleLg;
+  }
+  @include xl {
+    font-size: $titleXl;
+  }
+}
+
+@mixin subTitle {
+  color: $grey;
+  font-size: $subTitleXs;
+  @include sm {
+    font-size: $subTitleSm;
+  }
+  @include md {
+    font-size: $subTitleMd;
+  }
+  @include lg {
+    font-size: $subTitleLg;
+  }
+  @include xl {
+    font-size: $subTitleXl;
+  }
+}

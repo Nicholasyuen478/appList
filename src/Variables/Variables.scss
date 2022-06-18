@@ -1,0 +1,36 @@
+//TextSize
+$headerXs: 12px;
+$headerSm: 16px;
+$headerMd: 24px;
+$headerLg: 30px;
+$headerXl: 35px;
+
+$titleXs: 8px;
+$titleSm: 12px;
+$titleMd: 16px;
+$titleLg: 24px;
+$titleXl: 30px;
+
+$subTitleXs: 6px;
+$subTitleSm: 8px;
+$subTitleMd: 12px;
+$subTitleLg: 16px;
+$subTitleXl: 24px;
+
+//Color
+$lightWhite: rgb(255, 250, 250);
+$lightGrey: rgb(197, 197, 197);
+$mediumGrey:rgba(255, 255, 255, 0.5);
+$grey: rgb(165, 165, 161);
+$darkGrey: rgb(211, 208, 208, 0.5);
+$gold: rgb(252, 214, 45);
+
+//ScreenSize
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;

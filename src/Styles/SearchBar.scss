@@ -1,0 +1,28 @@
+@import "../Variables/Variables.scss";
+@import "../Mixin/Mixin.scss";
+.searchBar {
+  position: sticky;
+  top: 0;
+  @include fullWidthContainer;
+  background-color: $lightWhite;
+  border-bottom: 1px solid $lightGrey;
+  input {
+    @include fullWidthContainer;
+    height: 100%;
+    background-color: $darkGrey;
+    text-align: center;
+    @include header;
+    &:focus  {
+     outline: none;
+    }
+    
+  }
+  .searchIcon {
+    position: absolute;
+    height: 25%;
+    opacity: 0.5;
+    top: 48%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,108 @@
+.appList .app {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2%;
+  border-bottom: 1px solid rgb(197, 197, 197);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+}
+.appList .app:nth-child(2n+1) img {
+  width: 100%;
+  border-radius: 20%;
+}
+.appList .app:nth-child(2n) img {
+  width: 100%;
+  border-radius: 50%;
+}
+.appList .app .rating {
+  flex: 0.1;
+}
+.appList .app .icon {
+  flex: 0.4;
+}
+.appList .app .description {
+  margin: 3%;
+  flex: 1;
+  flex-direction: column;
+}
+.appList .star {
+  color: yellow;
+}
+.appList h2 {
+  font-size: 12px;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .appList h2 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .appList h2 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  .appList h2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .appList h2 {
+    font-size: 35px;
+  }
+}
+.appList h4 {
+  font-size: 8px;
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .appList h4 {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .appList h4 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  .appList h4 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .appList h4 {
+    font-size: 30px;
+  }
+}
+.appList h5 {
+  color: rgb(165, 165, 161);
+  font-size: 6px;
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .appList h5 {
+    font-size: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .appList h5 {
+    font-size: 12px;
+  }
+}
+@media (min-width: 992px) {
+  .appList h5 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .appList h5 {
+    font-size: 24px;
+  }
+}
+.appList h5 span {
+  color: rgb(252, 214, 45);
+}/*# sourceMappingURL=AppList.css.map */

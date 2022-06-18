@@ -1,0 +1,91 @@
+.appRecommendation {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2%;
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+.appRecommendation .apps {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 3%;
+  grid-auto-columns: 25%;
+  overflow: auto;
+  overscroll-behavior-inline: contain;
+}
+.appRecommendation img {
+  width: 100%;
+  border-radius: 20%;
+}
+.appRecommendation h2 {
+  font-size: 12px;
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .appRecommendation h2 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .appRecommendation h2 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  .appRecommendation h2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .appRecommendation h2 {
+    font-size: 35px;
+  }
+}
+.appRecommendation h4 {
+  font-size: 8px;
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .appRecommendation h4 {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .appRecommendation h4 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  .appRecommendation h4 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .appRecommendation h4 {
+    font-size: 30px;
+  }
+}
+.appRecommendation h5 {
+  color: rgb(165, 165, 161);
+  font-size: 6px;
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .appRecommendation h5 {
+    font-size: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .appRecommendation h5 {
+    font-size: 12px;
+  }
+}
+@media (min-width: 992px) {
+  .appRecommendation h5 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .appRecommendation h5 {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=AppRecommendation.css.map */

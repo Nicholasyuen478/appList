@@ -1,8 +1,8 @@
 # Description
 
-    Getting the data from "https://rss.applemarketingtools.com/" and bulid up the App Store listing page by ReactJS, CSS, HTML, Node js.
+ Getting the data from "https://rss.applemarketingtools.com/" and bulid up the App Store listing page by ReactJS, CSS, HTML, Node js.
 
-<img src="public/preview.png" width={50}>
+<img src="public/preview.png" width={20}>
 
 # Getting Started
 

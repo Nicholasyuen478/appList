@@ -2,13 +2,13 @@
 
     Getting the data from "https://rss.applemarketingtools.com/" and bulid up the App Store listing page by ReactJS, CSS, HTML, Node js.
 
-<img src={.\public\preview.png} width={50}>
+<img src={..\server\preview.png} width={50}>
 
 # Getting Started
 
-In order to start the project, please `npm install` first, make sure you are in the right path: "./app-list".
+In order to start the project, please `npm install` first, make sure you are in the right path,which has the Package.json.
 Then, do `npm start` to start the front-end project and open another terminal for the back-end server.
-Go to the path "./app-list/server", do `node server.js` to start the server,which is written by Node js.
+Go to the path "./server", do `node server.js` to start the server,which is written by Node js.
 
 ## Why do I set up a server?
 
